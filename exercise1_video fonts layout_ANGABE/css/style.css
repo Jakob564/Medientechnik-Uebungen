@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+/** CSS-Stylesheet
+*	author: Jakob Klaffenböck
+**/
+
+/************* general setting *************/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing:border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+h1, h2, h3 { 
+    text-align: center;
+}
+h1 {
+	font-size: 220%;
+	text-transform: uppercase;
+	margin: 0 0 0.5em 0;
+}
+h2 {
+	font-size: 130%;
+
+}
+h3 {
+	font-size: 130%;
+	margin: 1em 0 0.5em 0;
+}
+
+h4 {
+	font-size: 120%;
+	margin:  1em 0;
+}
+.baby_robbeImage img {
+	width: 70%;
+}
+.baby_robbeImage {
+	width: 50%;
+}
+.baby_robbeTeiler {
+	width: 50%;
+	margin-left: -13%;
+	float: left;
+}
+.baby_robbe {
+	display: flex;
+	width: 94%;
+	box-shadow: 1px 1px 3px 1px;
+	margin: 3%;
+}
+.baby_robbeTeiler h2 {
+	text-align: left;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.baby_robbeTeiler a {
+	text-decoration: none;
+	background-color: rgba(165, 42, 42, 0.788);
+	color: rgb(255, 255, 255);
+	padding: 2%;
+	font-size: 130%;
+	transition: all 0.8s;
+	width: 100%;
+}
+.baby_robbeTeiler a:hover {
+	transform: scale(1.4);
+	-moz-transform-: scale(1.4);
+	background-color: rgb(0, 0, 0);
+}
+.baby_robbeTeiler p {
+	margin-bottom: 4%;
+	font-size: 140%;
+}
+/************* Header *************/
+
+header{
+	padding: 2vw 15vw;
+	background-color:black;
+	color:white;
+}
+
+
+
+/************* Content Box *************/
+.box_content{
+	padding: 2em 4em 4em 4em;
+	background-color:#7a6652;
+	color:white;
+}
+
+/************* white box *************/
+.box_white{
+	width: 80%;
+	margin: 2em auto;
+}
+
+/*************Cards in the white box ****************/
+
+
+/************* Video *************/
+video {
+	margin-top: 3%;
+	max-width: 94%;
+	height: auto;
+	margin-left: 3%;
+
+}
+
+/************* Footer *************/
+
+footer{
+	padding: 2vw 15vw;
+	background-color:black;
+	color:white;
+}
+
+footer p{
+	font-size: 70%;
+	text-align:center;
+}
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media only screen and (max-width: 700px){
+	.baby_robbe {
+		flex: none;
+		flex-direction: column;
+	}
+	.baby_robbeTeiler {
+		margin-left: 2%;
+		width: 100%;
+		padding-bottom: 5%;
+	}
+	.baby_robbeImage img {
+		width: 200%;
+	}	
+	.baby_robbeTeiler p {
+		font-size: 90%;
+	}
+
+
+}
+

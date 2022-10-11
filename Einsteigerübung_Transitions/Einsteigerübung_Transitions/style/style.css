@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Chettan+2:wght@500&display=swap');
+* {
+    font-family: 'Baloo Chettan 2', cursive;
+}
+h1 {
+    font-size: 300%;
+    color: white;
+    background-color:black;
+    padding: 3%;
+    text-align: center;
+    justify-content: center;
+}
+.Fields div {
+    margin-left: 2%;
+    font-size: 300%;
+    width: 30%;
+    padding: 2% 4%;
+    margin-bottom: 3%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#ue1 {
+    transition-duration: 500ms;
+    background-color: lightgrey;
+}
+#ue1:hover {
+    background-color:#B4045F;
+    color: white;
+}
+#ue2 {
+    transition-duration: 1s;
+    background-color: rgb(44, 46, 44);
+    opacity: 0.4;
+    color: white;
+}
+#ue2:hover {
+    opacity: 1;
+}
+#ue3 {
+    color: white;
+    transition-duration: 1s;
+    background-color: rgba(50, 50, 50, 0.5);
+}
+#ue3:hover {
+    background-color: rgba(50, 50, 50,1);
+}
+#ue4 {
+    transition-duration: 800ms;
+    color: white;
+    background-color: rgb(29, 28, 27);
+    transition-timing-function: ease-in-out;
+}
+#ue4:hover {
+    transform: scale(2);
+}
+#ue5 {
+    transition-duration: 500ms;
+    background-color:#58D3F7;
+}
+#ue5:hover {
+    box-shadow: 0px 0px 7.5px 5px #616161;
+}
+#ue6 {
+    color: white;
+    background-color:#676470;
+    transition-timing-function: ease-in-out;
+    transition-duration: 300ms;
+}
+#ue6:hover {
+    box-shadow: inset 0px 0px 7.5px 5px #B4045F;
+}
+#ue7 {
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+    color: white;
+    background-color: #616161;
+    height: 20vw;
+    width: 15vw;
+}
+#ue7:hover {
+    border-radius: 400px;
+}
+#ue8 {
+    color: white;
+    background-color: #B4045F;
+    transition: background-color 3s, width 2s, height 2s;
+    transition-timing-function: ease-in-out;
+    height: 10vw;
+    width: 100%;
+}
+#ue8:hover {
+    background-color:#6c0239;
+    height: 15vw;
+    width: 60%;
+
+}
+

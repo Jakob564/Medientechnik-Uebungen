@@ -1,0 +1,27 @@
+#lname {
+    margin-left: 5%;
+}
+#fname {
+    margin-left: 6.3%;
+}
+#straße {
+    margin-left: 8.7%;
+}
+#platz {
+    margin-left: 9.2%;
+}
+form {
+    border: solid orange 2px;
+    padding: 2%;
+}
+#geschlecht {
+    margin-left: 5%;
+}
+#submit {
+    width: 42%;
+    font-size: 130%;
+    margin-top: 1%;
+}
+#platz {
+    margin-bottom: 1%;
+}

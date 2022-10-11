@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Anmeldedaten</h1>
+    <form action="" method="get">
+        <lable for="geschlecht">Geschlecht:</lable>
+        <input type="radio" id="geschlecht" name="geschlecht" value="männlich">
+        <label for="geschlecht">Männlich</label>
+        <input type="radio" id="geschlecht" name="geschlecht" value="weiblich">
+        <label for="geschlecht">Weiblich</label><br>
+
+        <label for="fname">Vorname:</label>
+        <input type="text" size="30" id="fname" name="fname" value=""><br>
+        <label for="lname">Nachname:</label>
+        <input type="text" size="30" id="lname" name="lname" value=""><br>
+        <label for="Straße">Straße</label>
+        <input type="text" size="30" id="straße" name="straße" value=""><br>
+        <label for="PLZ">Platz:</label>
+        <input type="text" size="30" id="platz" name="platz" value=""><br>
+
+        <label for="Kurs">Gewünschter Kurs</label>
+        <select name="Gewünschter Kurs" size="1">
+            <option value="CSS_Kurs">CSS - Kurs</option>
+            <option value="HTML_Kurs">HTML - Kurs</option>
+            <option value="Java_Kurs">Java - Kurs</option>
+            <option value="anderer_Kurs">Anderer Kurs</option>
+        </select><br>
+
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</body>
+</html>

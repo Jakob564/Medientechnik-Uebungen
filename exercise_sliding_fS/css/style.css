@@ -1,0 +1,43 @@
+body {
+	margin:0px;
+	padding: 0px;
+}
+
+#container {
+	width: 800px;
+	min-height: 300px;
+	margin: 80px auto;	
+}
+.hoverDot {
+	float: left;
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+	margin: 0 40px 40px 0;
+}
+#headline {
+	background-image: url(../images/headline.jpg);
+	background-repeat: no-repeat;
+	transition: transform 2s;
+}
+#headline:hover {
+	transform: rotate(180deg) scale(1.5,1.5);
+}
+#slidingDoors {
+	background-image: url(../images/texture.jpg), url(../images/texture.jpg), url(../images/monster_1.jpg);
+	background-repeat: no-repeat;
+	background-position: -100px 0px, 100px 0px, 0px 0px;
+	transition: background-position 1s ease-in-out;
+}
+#slidingDoors:hover {
+	background-position: -200px 0px, 200px 0px, 0px 0px;
+}
+#slidingDoorsVert {
+	background-image: url(../images/texture.jpg), url(../images/texture.jpg), url(../images/monster_2.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px -100px, 0px 100px, 0px 0px;
+	transition: background-position 1s ease-in-out;
+}
+#slidingDoorsVert:hover {
+	background-position: 0px -200px, 0px 200px, 0px 0px;
+}
