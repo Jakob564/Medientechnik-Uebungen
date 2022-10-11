@@ -1,0 +1,113 @@
+
+*{ margin: 0;
+  padding: 0;
+}
+
+body
+{ font-family:'Calibri';
+  
+  }
+  
+ img{
+  	display: block;
+  }
+  
+#formular_box{
+	background-color: #333333;
+	margin: 1% 20%;
+	width: 60%;
+	border-radius: 1%;
+}
+
+h1{
+	text-shadow: 1em 1em #000;
+	font-size: 150%;
+	text-align: center;
+}
+
+
+legend{
+	font-size:110%;	
+}
+.logo {
+	margin: 0 auto;
+}
+body {
+	background-image: url(../images/pattern.jpg);
+}
+label {
+	color: white;
+}
+
+
+/************************************
+ * Absenden-Button
+ *************************************/
+ 
+
+
+
+/************************************
+ * Text- und Eingabefelder deklarieren
+ *************************************/
+ 
+
+input, textarea { 
+	background: #FFF;
+}
+.zwischenH2 {
+	color: rgb(59, 124, 209);
+	margin-left: 2%;
+	margin-top: 1%;
+}
+#anmerkungen {
+	width: 30%;
+	height: 600%;
+}
+fieldset {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.sami {
+	color: white;
+}
+input[type="radio"] { 
+	margin: 1%;
+}
+input[type="checkbox"] { 
+	margin: 0.2%;
+}
+.labelBox {
+	float: left;
+	margin-left: 1%;
+	width: 15%;
+}
+input[type="submit"] {
+	background-color: rgb(88, 100, 214);
+	font-weight: bolder;
+	font-size: 100%;
+	margin-left: 2%;
+	border-radius: 15px;
+}
+input[type="text"] {
+	display: flex;
+	justify-content: center;
+	width: 400px;
+}
+input {
+	padding: 0.3% 0.3% 0.3% 0.3%;
+}
+select {
+
+}
+p {
+	margin-left: 1%;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+}
+
+
+
+
+  
+
